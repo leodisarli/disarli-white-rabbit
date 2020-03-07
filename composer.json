@@ -1,0 +1,22 @@
+{
+    "name": "disarli/white-rabbit",
+    "description": "WhiteRabbit - Simple Library to push/pull RabbitMQ in PHP with PHPAMQPLib PHP Version 5",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0",
+        "php-amqplib/php-amqplib": "2.7.2"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Di Sarli",
+            "email": "leosarli@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DiSarli\\WhiteRabbit\\": "src/"
+        }
+    }
+}
